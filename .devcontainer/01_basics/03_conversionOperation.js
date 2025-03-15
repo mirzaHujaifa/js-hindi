@@ -22,10 +22,13 @@ console.log(booleanisLoggedIn)
 //"" => false & "Mirza"=> true
 
 
-let someNuber= 33
-let astringNumber = String(someNuber)
-console.log(astringNumber)
-console.log(typeof astringNumber)
+// let someNuber= 33
+// let astringNumber = String(someNuber)
+// console.log(astringNumber)
+// console.log(typeof astringNumber)
 
 //************************************** Operation **************************************
 
+let gameCounter=479
+++gameCounter;
+ console.log(gameCounter)
