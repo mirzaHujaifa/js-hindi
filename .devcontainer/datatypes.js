@@ -33,3 +33,27 @@ const myFunction = function(){
     console.log("Hellow World");
 }
 console.log(typeof myFunction)
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++memory+++
+
+// stack- it gives you copy of data(primitive type),Heap- it give you referance of data (non primitive)
+
+ let accountNummber="1345677"
+ let another=accountNummber
+ another="34667"
+ console.log(accountNummber)
+ console.log(another)
+
+
+// Example of Heap
+
+let userOne = {
+    email:"Mirza@gmail.com",
+    age:26
+}
+let userTwo = userOne
+userTwo.age=28
+userTwo.email="MiraKeron@hsjsad.com"
+
+console.log(userOne.age,userOne.email)
+console.log(userTwo.age,userTwo.email)
