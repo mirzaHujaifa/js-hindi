@@ -31,6 +31,13 @@ console.log(string5.trim(' '));
 const url = "http//:mirza.com%29keron"
 console.log(url.replace('%29'));
 
+//Use of Include and Split
+console.log(url.includes('mirza'));
+
+console.log(gameName.split('-'));
+
+
+
 
 
 
